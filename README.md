@@ -3,7 +3,8 @@
 it`s thread safe. Only One thread will manage the progressBar .
 
 # Tips
- Suppose you want call **print**  in progressBar context.  call **pb2.getSingleton().print()**  instead. otherwise it would mess up the layout 
+1. if you want call **print**  in progressBar context.  call **pb2.getSingleton().print()**  instead. otherwise it would mess up the layout .
+2. **stop** the progroessBar when logically complete
 
 # Demo
 ## SimpleDemo
